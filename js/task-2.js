@@ -18,7 +18,7 @@ const images = [
   },
   {
     url: "https://images.pexels.com/photos/37833/rainbow-lorikeet-parrots-australia-rainbow-37833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    alt: "Blue Geeen and Orange Parrot",
+    alt: "Blue Green and Orange Parrot",
   },
   {
     url: "https://images.pexels.com/photos/247376/pexels-photo-247376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -30,13 +30,13 @@ const galleryElement = document.querySelector(".gallery");
 
 const galleryHTML = images
   .map(
-    (image) => `
-  <li style="margin-botom: ${
-    image.index < 3 ? "48px" : "0px"
-  };48px; flex: 1 0 360px;">
+    (image, index) => `
+  <li style="margin-bottom: ${
+    index < 3 ? "24px" : "0"
+  }; flex: 0 0 calc(360px - 24px)"";>
     <img src="${image.url}" alt="${
       image.alt
-    }" style="width: 100%; height: 300px; object-fit: cover; ">
+    }" style="width: 360px; height: 300px; object-fit: cover;">
   </li>
 `
   )

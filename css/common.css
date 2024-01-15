@@ -15,6 +15,9 @@ body {
 ul {
   list-style-type: none;
 }
+.gallery {
+  width: 1440px;
+}
 
 .title-name {
   color: #2e2f42;
@@ -137,4 +140,84 @@ ul {
   flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid #808080;
+}
+/* ===================task-5================== */
+
+.txt-tsk-5 {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.change-color {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4e75ff;
+}
+/* =================task-6=================== */
+.inp-num {
+  border-radius: 8px;
+  border: 1px solid #808080;
+  width: 150px;
+  height: 40px;
+}
+.cont-tsk-last {
+  display: flex;
+  padding: 8px 72px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f6f6fe;
+  width: 486px;
+  height: 104px;
+  margin-bottom: 16px;
+}
+.inp-num::placeholder {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+.btn-create {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  border-radius: 8px;
+  background: #4e75ff;
+  width: 120px;
+  height: 40px;
+}
+.btn-destroy {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  border-radius: 8px;
+  background: #ff4e4e;
+  width: 120px;
+  height: 40px;
+}
+.cont-child {
+  display: flex;
+  flex-direction: row;
 }
