@@ -33,7 +33,7 @@ const galleryHTML = images
     (image, index) => `
   <li style="margin-bottom: ${
     index < 3 ? "24px" : "0"
-  }; flex: 0 0 calc(360px - 24px)"";>
+  }; flex: 0 0 calc(360px - 24px);">
     <img src="${image.url}" alt="${
       image.alt
     }" style="width: 360px; height: 300px; object-fit: cover;">
